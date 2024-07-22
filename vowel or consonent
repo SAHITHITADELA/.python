@@ -1,0 +1,5 @@
+al=input("enter alphabet:")
+if al == 'a' or al=='e' or al=='i' or al=='o' or al=='u' :
+  print("is vowel")
+else:
+  print("not an vowel")
