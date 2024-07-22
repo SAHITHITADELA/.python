@@ -1,0 +1,6 @@
+import math
+r=float(input("radius:"))
+c=2*math.pi*r
+area=math.pi*r*r
+print("circumference is",c)
+print("area is ",area)
