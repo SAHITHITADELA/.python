@@ -1,0 +1,6 @@
+import datetime
+d=int(input("enter the date:"))
+m=int(input("enter the month"))
+y=int(input("enter the year"))
+day=datetime.date(y,m,d)
+print(day.strftime("the weekday is %a"))
