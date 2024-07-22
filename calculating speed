@@ -1,0 +1,5 @@
+d=int(input("enter distance in km"))
+time=int(input("enter time in min"))
+t=time/60
+speed=d/t
+print("speed :",speed)
